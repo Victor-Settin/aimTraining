@@ -1,0 +1,31 @@
+.button-modal,
+.button-level {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0.5px solid #d0a2a296;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 9999;
+}
+.modal-backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
