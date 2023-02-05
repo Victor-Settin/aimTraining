@@ -29,3 +29,9 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 999;
 }
+
+@media screen and (max-width: 500px) {
+    .button-level {
+        margin: 10px 8px;
+    }
+}
